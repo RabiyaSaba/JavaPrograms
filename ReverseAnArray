@@ -1,0 +1,18 @@
+// wap to reverse an array
+public class ReverseAnArray {
+	
+	public static void main(String args[])
+	{
+		int [] a = {1,2,3,4};
+		//for loop to reverse 
+		// reverse 
+		int reverse =0;
+		for (int i=4-1;i>=0;i--)
+		{
+			System.out.print(" " +a[i]);
+		           
+		}
+		
+	}
+
+}
