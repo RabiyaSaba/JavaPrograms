@@ -1,1 +1,26 @@
+// WAP to find the smallest element 
+public class SmallestElement {
+	
+	public static void main(String args[])
+	{
+		
+		// define array
+		int [ ] a = {1,2,3,7};
+		// var to store the smallest element 
+		int small = a[0];
+		//loop through the array 
+		for(int i =0;i<a.length;i++)
+		{
+			// check the element one by one 
+			if(small >a[0])
+			{
+				small = a[0];
+			}
+		}
+		System.out.println(" the smallest element is "+small);
+		
+		
+	}
+
+}
 
