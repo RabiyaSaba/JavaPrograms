@@ -1,0 +1,20 @@
+// write a java program to calculate sum of arrays of all the element present in array 
+public class SumOfArray {
+	
+	public static void main(String args[])
+	{
+		// define array 
+		int[] a1 = { 1,2,3,4};
+		// to store the sum 
+		int sum =0;
+		// loop
+		for (int i=0;i<a1.length;i++)
+		{
+			sum = sum +a1[i];
+			
+		}
+		System.out.println(" The sum of array : "+sum);
+		
+	}
+
+}
