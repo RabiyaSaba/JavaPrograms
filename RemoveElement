@@ -1,0 +1,19 @@
+// wap to remove a particular element from array and display the remaining array
+public class RemoveElement {
+	
+	public static void main(String args[])
+	{
+		int [] a = {1,3,4,5};
+		// element to be removed 
+		int element=3;
+		for(int i =0;i<a.length;i++)
+		{
+			if(a[i]==element)
+			{
+				continue;
+			}
+			System.out.print(""+a[i]);
+		}
+	}
+
+}
