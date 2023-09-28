@@ -1,0 +1,50 @@
+
+public class SelectionSort {
+	public static void main(String args[])
+	{
+	// first we created an array 
+	int [] a = {4,3,2,1};
+	// a variable to store 
+	int dummy =a[0];
+	
+	// array before sorting 
+	System.out.println("  Array Before Sorting :");
+	for (int i =0;i<a.length;i++)
+	{
+		System.out.print("  "+a[i]);
+	}
+	
+	// check for smallest value 
+	for (int i =0;i<a.length;i++)
+	{
+		if(dummy > a[i])
+		{
+			dummy = a[i];
+		}
+	
+		
+	
+		
+			
+	}
+	System.out.println("");
+	// assign smallest value to first place
+	System.out.println(" Array After Sorting : ");
+	for (int i =0;i<a.length;i++)
+	{
+		a[i]=dummy;
+		System.out.print("  "+a[i]);
+		// increase the value of dummy
+		dummy++;
+		
+		
+
+		
+		
+	}
+	
+ 
+	
+
+}
+}
