@@ -1,0 +1,24 @@
+// wap to first add the target value
+// if 3+value of array is greatest 
+// then print the value 
+public class GreatestNumber {
+	
+	public static void main(String args[])
+	{
+		int [] a = {1,2,3,4};
+		// extra candies 
+		int extra = 3;
+		int dummy = a[0];
+		for(int i =0;i<a.length;i++)
+		{
+		        if(dummy < a[i])
+		        {
+		        	dummy = a[i];
+		        }
+		}
+		System.out.println("greatest number of candies found at index :"+dummy);
+     dummy = dummy+3;
+System.out.println("The count is :"+dummy);
+	}
+
+}
