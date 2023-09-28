@@ -1,0 +1,25 @@
+// wap to remove specified character
+public class RemoveCharacter {
+	
+	public static void main(String args[])
+	{
+		// string 
+		String s ="abcdee";
+		// element to be not printed 
+		char ch = 'e';
+		
+		// looping
+		for (int i =0;i<s.length();i++)
+		{
+			// if found just continue do not do anything
+			
+			if(s.charAt(i)==ch)
+			{
+				continue;
+			}
+			// print the rest of the element 
+			System.out.println(" "+s.charAt(i));
+		}
+	}
+
+}
