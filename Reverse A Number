@@ -1,0 +1,21 @@
+// program to reverse a number
+public class ReverseANumber {
+	
+	public static void main(String args[])
+	{
+		int n =123;
+		int ans=0;
+		
+		// logic to reverse a number 
+		while(n>0)
+		{
+			int rem = n%10;
+			// everytime we are reverse an storing it in ans 
+			 ans=ans*10+rem;
+			n=n/10;
+			
+		}
+		System.out.println(""+ans);
+	}
+
+}
