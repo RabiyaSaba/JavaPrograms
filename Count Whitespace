@@ -1,0 +1,24 @@
+// program to count whitespaces 
+public class CountWhiteSpaces {
+
+	public static void main(String args[])
+	{
+		// String
+		String a ="ab  cce  ";
+		// to store count
+		int count =0;
+		// loop through 
+		for (int i =0;i<a.length();i++)
+		{
+		   char ch =a.charAt(i);
+		   // check whitespace
+		   if(ch==' ')
+		   {
+			   count++;
+		   }
+		   
+		}
+		// print the number of whitespace
+		System.out.println(" "+count);
+	}
+}
