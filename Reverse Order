@@ -1,0 +1,14 @@
+// wap to print number in reverse order
+public class NumberInReverseOrder {
+	public static void main(String atsg[])
+	{
+		int number = 10;
+		
+		// we will print the number list in reverse order 
+		for (int i =10;i>0;i--)
+		{
+			System.out.println(+i);
+		}
+	}
+
+}
