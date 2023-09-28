@@ -1,0 +1,22 @@
+// wap to find the first occurence of target 
+public class FirstOccurenceOfTarget {
+	
+	public static void main(String args[])
+	{
+		// define array 
+		int [] a = {3,2,1,5};
+		// here we have set the target to be 1 
+		int target = 1;
+		 for (int i =0;i<a.length;i++)
+		 {
+			 // if list have the target 
+			 if(a[i]==target)
+			 {
+				 System.out.println("the first occurence of target is at "+i);
+                 //once we find the first occurence break through
+				 break;
+			 }
+		 }
+	}
+
+}
