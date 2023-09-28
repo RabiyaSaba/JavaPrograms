@@ -1,0 +1,21 @@
+// wap to find the unique number in a given array 
+public class FindUniqueNumber {
+	
+	public static void main(String args[])
+	{
+		int [] a = {1,4,1,1};
+		int dummy = a[0];
+
+		for(int i =0;i<a.length;i++)
+		{
+// if number is same then continue
+			if(dummy == a[i])
+			{
+				continue;
+			}
+// only the number which is unique is printed
+			System.out.println(" unique number :"+a[i]);
+		}
+	}
+
+}
