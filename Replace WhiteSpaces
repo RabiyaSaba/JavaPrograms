@@ -1,0 +1,46 @@
+// wap to replace the spaces allocated with strings 
+import java.util.*;
+public class ReplaceSpaceWithString {
+	
+	public static void main(String args[])
+
+	
+	
+	
+	{
+		
+		// scanner object 
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a value  : ");
+		
+		String str = scan.nextLine();
+		// replacing string 
+		char re='@';
+		// define string 
+		
+		// now lets take out the length of string 
+		int len = str.length();
+		// for loop
+		System.out.println("Before replacement :");
+		for(int i =0;i<str.length();i++)
+		{
+			char ch0 = str.charAt(i);
+			System.out.print(" "+ch0);
+		}
+		
+		System.out.println(" ");
+		System.out.println("After replacement :");
+		for (int i =0;i<str.length();i++)
+		{
+			// if there is whitespaced 
+			char ch = str.charAt(i);
+			if(ch ==' ')
+			{
+				ch = re;
+			}
+			System.out.print(" "+ch);
+		}
+		
+	}
+
+}
