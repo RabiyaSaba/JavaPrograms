@@ -1,0 +1,20 @@
+// wap to showcase use case of logical operator 
+public class UseCaseLogical {
+	
+	public static void main(String args[])
+	{
+		int  a =10;
+		int b =20;
+		// if one condition is true if also get executed 
+		if(a==b||a>b)
+		{
+			System.out.println(" a is equal to b or a is less then b ");
+		}
+		// both condition  needed to be true 
+		if(a!=b && a<b)
+		{
+			System.out.println("a is not equal to b and a is less then b ");
+		}
+	}
+
+}
