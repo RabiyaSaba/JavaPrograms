@@ -1,0 +1,29 @@
+// wap to showcase use case of arithematic operator
+public class UseCaseOfArithematicOperator {
+	
+	public static void main(String args[])
+	{
+	
+	
+	int a = 10;
+	int b =20;
+	int add = a+b;
+	int sub = a-b;
+	int mul=a*b;
+	int divide = a/b;
+	int rem=a%b;
+	System.out.println("a :"+a);
+	System.out.println("b: "+b);
+	
+	System.out.println("addition :"+add);
+	System.out.println( "subtraction: "+sub);
+	System.out.println("multiplication :"+mul);
+
+	System.out.println("divide:"+divide);
+
+	System.out.println("remainder: "+rem);
+
+
+
+}
+}
