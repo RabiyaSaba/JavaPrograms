@@ -1,0 +1,20 @@
+// wap to check whether the entered character is capital of small
+public class CheckIfCapitalOrSmall {
+	
+	public static void main(String args[])
+	{
+		//character to be entere
+		char ch ='a';
+		// if under this then capital
+		if(ch >'A'&&ch <'Z')
+		{
+			System.out.println("CAPITAL");
+		}
+		else
+		{
+			System.out.println("SMALLER");
+		}
+		
+	}
+
+}
