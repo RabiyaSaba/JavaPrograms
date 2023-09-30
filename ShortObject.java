@@ -1,0 +1,16 @@
+// wap to create short object 
+
+import java.util.Scanner;
+public class ShortObject {
+	
+	public static void main(String args[])
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the short value :");
+		short a = scan.nextShort();
+		System.out.println(" "+a);
+	}
+	
+	
+
+}
