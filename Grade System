@@ -1,0 +1,37 @@
+// create a school grade system
+import java.util.*;
+public class GradeSystem {
+	
+	public static void main(String args[])
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the marks of English :");
+		int eng = scan.nextInt();
+		System.out.println("Enter the marks of Maths :");
+		int maths = scan.nextInt();
+		System.out.println("Enter the marks of Social Science  :");
+		int sscience = scan.nextInt();
+		// now make average 
+		int avg =(eng+maths+sscience)/2;
+		System.out.println(" The Average is : "+avg);
+		if(avg <50 )
+		{
+			System.out.println(" GRADE C");
+		}
+		if(avg >70&& avg <80)
+		{
+			System.out.println("GRADE B ");
+		}
+		if(avg > 80)
+		{
+			System.out.println("GRADE A");
+		}
+
+		
+
+		
+		 		 
+		
+	}
+
+}
