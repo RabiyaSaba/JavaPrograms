@@ -1,0 +1,25 @@
+package constructor;
+
+public class ParamaterizedConstructor {
+	//object
+	
+	String name ;
+	// constructor with parameter
+	public ParamaterizedConstructor(String n)
+	
+	{
+		// assign the value to n 
+		name = n;
+		System.out.println("We are in paramaterized constructor :");
+		// printed 
+		System.out.println(" name :"+name);
+	}
+	
+	public static void main(String args[])
+	{
+		// constructor called and passed the value 
+		ParamaterizedConstructor pc = new ParamaterizedConstructor("Alison Swift");
+		
+	}
+
+}
