@@ -1,0 +1,52 @@
+// program showcase encapsulation example
+public class EncapsulationExample {
+
+	// creating two private object
+	private String name;
+	private int age ;
+	
+	// method to return name value
+	public String getName()
+	{
+		return name ;
+	}
+	// method to set the name 
+	public void setName(String name )
+	{
+	// we are having shadowing problem
+		// the local variable and global variable has the same name 
+		// to solve we are using this keyword
+		this.name = name ;
+		
+	}
+	// method to return the age value 
+	public int getAge()
+	{
+		return age ;
+	}
+	// now we will set the age 
+	public void setAge(int age )
+	{
+		this.age = age;
+	}
+	// now we have set and get the age  and name 
+	// time to call the main method 
+	public static void main(String args[])
+{
+	// create object of class
+		EncapsulationExample ee = new EncapsulationExample();
+		// calling method with object 
+		ee.getAge();
+		// this is parameter method hence setAge is used to set value 
+		ee.setAge(12);
+		// same for name
+		ee.getName();
+		ee.setName("Priya");
+		// now printing the values 
+		System.out.println("Name is :"+ee.getName());
+		System.out.println("Age is :"+ee.getAge());
+		
+		
+		
+}
+}
