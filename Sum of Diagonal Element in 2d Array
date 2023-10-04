@@ -1,0 +1,39 @@
+// create a sum  diagonal element of 2d array
+import java.util.*;
+public class SumOfDiagonalElement {
+	
+	public static void main(String args[])
+	{
+		// taking scanner object 
+		Scanner scan = new Scanner(System.in);
+		
+		
+		int [][]a = new int[3][3];
+		// now taking the value from user 
+		System.out.println("Enter the values ");
+		for(int i =0;i<3;i++)
+		{
+			for(int j =0;j<3;j++)
+			{
+				a[i][j]=scan.nextInt();
+			}
+		}
+		// now calculating sum of diagonal element 
+		int sum = 0;
+		// for loop
+		for(int i =0;i<3;i++)
+		{
+			for(int j =0;j<3;j++)
+			{
+				if(i==j)
+					
+				sum = a[i][j]+sum;
+			
+			}
+		}
+		
+		// printing the result 
+		System.out.println(" the sum of array is :"+sum);
+	}
+
+}
