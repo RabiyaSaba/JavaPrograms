@@ -1,0 +1,73 @@
+// program to add 2  2d array together 
+import java.util.*;
+public class MultiplicationoftwoDArray {
+	public static void main(String args[])
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the value of row and coloumn ");
+		int row = scan.nextInt();
+		int col=scan.nextInt();
+		
+		// now lets define both array 
+		int [][]a = new int[row][col];
+		int [][]b = new int[row][col];
+		
+		// taking first array 
+		System.out.println("Enter the value of first array :");
+		for(int i =0;i<row;i++)
+		{
+			for(int j =0;j<row;j++)
+			{
+				a[i][j]=scan.nextInt();
+			}
+		}
+		
+		// taking sec array
+		
+		
+		System.out.println("Enter the value of second  array :");
+		for(int i =0;i<row;i++)
+		{
+			for(int j =0;j<row;j++)
+			{
+				b[i][j]=scan.nextInt();
+			}
+		}
+		
+		
+		// now define sum 
+		int sum = 01;
+		
+		// now loop through to  multiply the value 
+
+		
+		for(int i =0;i<row;i++)
+		{
+			for(int j =0;j<row;j++)
+			{
+				sum = a[i][j]+b[i][j]*sum;
+			}
+		}
+		
+		// display the sum 
+		System.out.println("The total sum of all the element is :");
+		System.out.println(" "+sum);
+
+		
+		
+		
+		
+		
+		
+
+		
+	
+	
+	
+	
+	
+	
+	}
+
+
+}
