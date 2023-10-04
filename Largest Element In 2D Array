@@ -1,0 +1,42 @@
+// Program to find the largest element in 2d array
+import java.util.*;
+public class LargestElementInTwoDArray
+{
+	
+	public static void main(String args[])
+	{
+		// taking scanner object 
+		Scanner scan = new Scanner(System.in);
+		
+		
+		int [][]a = new int[3][3];
+		// now taking the value from user 
+		System.out.println("Enter the values ");
+		for(int i =0;i<3;i++)
+		{
+			for(int j =0;j<3;j++)
+			{
+				a[i][j]=scan.nextInt();
+			}
+		}
+		// now we need to find the largest 
+		int  dummy = a[0][0];
+		// dummy contain the first value 
+		// for loop
+		for(int i =0;i<3;i++)
+		{
+			for(int j =0;j<3;j++)
+			{
+			   if(dummy<a[i][j])
+			   {
+				   dummy = a[i][j];
+			   }
+			
+			}
+		}
+		
+		// printing the result 
+		System.out.println(" the largest value is :"+dummy);
+	}
+
+}
