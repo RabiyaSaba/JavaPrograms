@@ -1,0 +1,35 @@
+
+
+
+// so basically cohesion means is 
+// class is designed well focused in a single class 
+// it will be easier to maintain the class
+import java.util.*;
+public class TwoNumber {
+	public static void main(String args[])
+	{
+
+	// here we have 2 number and needed to do 2 calculation 
+	// one is add and the other is multiplication 
+	//instead of writing the whole code in main
+	// we will create 2 methods and pass the value to it 
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Enter the value of a :");
+	int a = scan.nextInt();
+	System.out.println("Enter the value of b :");
+	int b = scan.nextInt();
+	 add(a,b);
+	 multiply(a,b);
+	
+}
+	public static void add(int a ,int b )
+	{
+		int result = a + b ;
+		System.out.println(" The addition of 2 number is :"+result);
+	}
+	public static void multiply(int a ,int b )
+	{
+		int result = a*b;
+		System.out.println("Multiplication of 2 number is :"+result);
+	}
+}
