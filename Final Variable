@@ -1,0 +1,19 @@
+//if we want a variable whose value should not get changed during the execution
+// so we put that var as a final variable 
+public class FinalVariable {
+	public static void main(String args[])
+	{
+		
+	
+	
+	final int f = 10;
+	System.out.println(" "+f);
+	// if you change the f value error will come 
+
+	
+	
+	
+	
+
+}
+}
