@@ -1,0 +1,18 @@
+
+
+// this method will concatenate two string
+public class ConcatMethod {
+
+	public static void main(String args[])
+	{
+		// declare 2 string 
+		String a = "hello ";
+		String b = "world ";
+		// concate into 3 var 
+		String ab = a.concat(b);
+		System.out.println(" "+a);
+		System.out.println(" "+b);
+		
+		System.out.println(" "+ab);
+	}
+}
