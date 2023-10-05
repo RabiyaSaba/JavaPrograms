@@ -1,0 +1,15 @@
+
+// this will take 2 array and return an true if equal 
+public class ArrayEqualsMehod {
+	
+	public static void main(String args[])
+	{
+		int [] a = {1,2,3,4};
+		int [ ]b = {1,2,3,4};
+		boolean e = a.equals(b);
+		System.out.println(" "+e);
+		
+	}
+
+	
+}
