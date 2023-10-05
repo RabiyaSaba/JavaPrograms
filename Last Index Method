@@ -1,0 +1,23 @@
+
+
+// string method which return index value 
+public class IndexOf {
+	public static void main(String args[])
+	{
+	
+	String a ="hello ";
+	// var for length 
+	int len = a.length();
+	// now loop
+
+	    // it will return index of e 
+		int index = a.indexOf('e');
+		System.out.println(" "+index);
+		// if there is no character then it will return -1
+		index =a.indexOf('c');
+		System.out.println(" "+index);
+	
+
+}
+
+}
