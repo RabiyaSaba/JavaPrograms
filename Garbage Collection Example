@@ -1,0 +1,30 @@
+
+
+// here is a program to showcase garbage collection
+import java.util.*;
+public class GarbageCollectionExamole {
+
+	// the object which does not have a reference variable will be deallocatd 
+	// we do not have to deallocate on our own in java 
+	// java does it for us
+	// therefore 
+	public static void main(String args[])
+	{
+		Scanner scan = new Scanner(System.in);
+		// we will use for loop
+		System.out.println("Process Start ");
+		System.out.println("Enter a value :");
+		for(int i =0;i<10;i++)
+		{
+			// now n will get a value from user 
+			int n = scan.nextInt();
+			// we are printing the value
+			System.out.println("  new value : "+n );
+			// but when we are incrementing the old value 
+			// does not have a reference 
+			// hence the old value get collected by garbage collection
+			
+		}
+		System.out.println("Process stopped ");
+	}
+}
