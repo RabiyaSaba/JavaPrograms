@@ -1,0 +1,79 @@
+
+
+// this is a leetcode question 
+// the problem is to take array and if contain duplicate then 
+// return a boolean value true 
+// else
+//return a boolean value false
+import java.util.*;
+public class LCContainDuplicate {
+	
+    public static void main(String args[])
+{
+	// we will take Scanner object
+    	Scanner scan = new Scanner(System.in);
+    	//element 
+    	System.out.println(" Enter elements :");
+    	int e = scan.nextInt();
+    	// array define 
+    	int [] a = new int [e];
+    	// now take array from user
+    	
+    	for(int i =0;i<e;i++)
+    	{
+    		// take user input 
+    		a[i]=scan.nextInt();
+    	}
+    	// now we need to find duplicate 
+    	//dummy 
+    	int dummy = a[0];
+    	// to store the count 
+    	int count = 0;
+    	
+    	for(int i =0;i<e;i++)
+    	{
+    		// if dummy equal to any other element
+    		if(dummy ==a[i])
+    		{
+    			count++;
+    		}
+    		// assign dummy to the current element 
+    		dummy = a[i];
+    		
+    		
+    	}
+    // to check the count 
+    	// so we have assigned dummy to a[0] 
+    	// it will show 1 by default
+    	// therefore count should be greater then 1 
+    	if(count >1)
+    	{
+    		System.out.println(" True  Repeating element :"+count );
+    		
+    	}
+    	else
+    	{
+    		System.out.println(" False no Repeating element ");
+    	}
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+}
+
+}
