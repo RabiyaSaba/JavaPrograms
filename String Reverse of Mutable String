@@ -1,0 +1,15 @@
+//  there is a method called reverse in StringBuffer class 
+// which we can use to reverse the whole STring 
+public class ReverseUsingSbClassMethod {
+	
+	public static void main(String args[])
+	{
+		StringBuffer sb = new StringBuffer("Hello");
+		System.out.println(" original is "+sb);
+		// reversing the string 
+		StringBuffer sbe =sb.reverse();
+		System.out.println(" reverse is "+sbe);
+
+	}
+
+}
