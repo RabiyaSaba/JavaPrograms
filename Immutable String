@@ -1,0 +1,18 @@
+// program to create mutable string 
+public class MutableString {
+	
+	public static void main(String args[])
+	{
+		// in order the create mutable String we need to use StringBuffer class 
+		StringBuffer sb = new StringBuffer("Hello");
+		// first we pass hell0 from parameter and  printed it
+		System.out.println(" "+sb);
+		// next append basically means add the other parameter after 
+		// previous parameter 
+		sb.append("World ");
+		// now the output will be HelloWorld 
+		System.out.println(" "+sb);
+		
+	}
+
+}
