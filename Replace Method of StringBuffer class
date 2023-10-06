@@ -1,0 +1,15 @@
+
+public class ReplaceStringBufferMethod {
+	public static void main(String args[])
+	{
+		// in order to replace the value in a string we can make use 
+		// use of replace method 
+		StringBuffer sb = new StringBuffer("Hello ");
+		System.out.println(" "+sb);
+		// we need to define the intial index and final index 
+		
+		StringBuffer sbe = sb.replace(1, 2, "pp" );
+		System.out.println(" "+sbe);
+	}
+
+}
