@@ -1,0 +1,57 @@
+
+
+// array list are like we can easily add remove element from it 
+// it is bit more slower then the standard array 
+// but it is useful for big data where we required lot of manupulation on the objects 
+import java.util.*;
+public class ArrayListBasic {
+	
+	
+	public static void main(String args[])
+	{
+		// create a array list 
+		ArrayList <Integer> a = new ArrayList<Integer >();
+		// to add an elementv
+		a.add(1);
+		a.add(2);
+		// to remove an element 
+		a.remove(1);
+		a.add(9);
+		a.add(13);
+		a.add(23);
+		System.out.println(" "+a);
+		// like if we want to create an string array list 
+		ArrayList <String > b = new ArrayList<String >();
+		// add fruits in it and make a fruit salad 
+		b.add("banana");
+		b.add("Kiwi");
+		b.add("Orange ");
+		System.out.println(" "+b);
+		//now if we want to iterate to it 
+		Iterator it = b.iterator();
+		// loop through 
+		while(it.hasNext())
+		{
+			
+			// print kardo 
+			System.out.println(" "+it.next());
+			
+		}
+		// same for Integer value
+		
+		Iterator itr  = a.iterator();
+		// loop
+		while(itr.hasNext())
+		{
+			// print 
+			System.out.println(""+itr.next());
+		    //  
+		}
+		// to check whether the arrayList is empty 
+		System.out.println(" "+a.isEmpty());
+		
+		
+	
+		}
+
+}
