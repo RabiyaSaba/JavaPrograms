@@ -1,0 +1,12 @@
+// withe the help of delete we can delete the String Buffer delete value 
+public class DeleteSbClassMethod {
+	
+	public static void main(String args[])
+	{
+		StringBuffer sb = new StringBuffer(" hello ");
+		System.out.println(" "+sb);
+		StringBuffer sbe = sb.delete(1, 3);
+		System.out.println(" "+sbe);
+	}
+
+}
