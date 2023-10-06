@@ -1,0 +1,20 @@
+// it is a method used to check whether the STRING are equal
+public class EqualsMethodInString {
+
+	
+	public static void main(String args[])
+	{
+		String s1 = "hello";
+		String s2 = "hello";
+		if(s1.equals(s2))
+		{
+			System.out.println(" Equals ");
+		}
+		else
+		{
+			System.out.println("Not Equals ");
+		}
+		
+		
+	}
+}
