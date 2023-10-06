@@ -1,0 +1,24 @@
+//leetcode question 
+public class ReturnIndexOfTargetValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// array 
+		int [] a = {1,2,3,6};
+		// key to be search 
+		int target = 3;
+		//now loop 
+	
+		for(int i =0;i<a.length;i++)
+		{
+			if(target ==a[i])
+			{
+				System.out.println(" the target index is "+i);
+			}
+			
+		}
+
+	}
+
+}
