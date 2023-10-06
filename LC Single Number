@@ -1,0 +1,34 @@
+
+
+// every element appears for 2 times in an array 
+// only one element appears for one times
+// find that single element 
+public class LeetCodeSingleNumber {
+	
+	public static void main(String args[])
+	{
+		// array 
+		int [] a = {2,2,6};
+		// single element : 5 
+		
+		// loop through 
+		int dummy = a[0];
+		for (int i =0;i<a.length;i++)
+		{
+			// check current element with next elementv
+			if(dummy==a[i])
+			{
+				
+				continue;
+			}
+			else
+			{
+				System.out.println(" "+a[i]);
+			}
+			dummy=a[i];
+		}
+	
+		
+	}
+
+}
