@@ -1,0 +1,14 @@
+
+// in order to comment we have three method
+public class DocumentationExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// this one 
+		/* text */
+		/** documentation used in java doc **/
+		
+
+	}
+
+}
