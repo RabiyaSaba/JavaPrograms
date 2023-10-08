@@ -1,0 +1,34 @@
+import java.util.*;
+public class OccurenceOfTargetCharacter {
+	
+	public static void main(String args[])
+	{
+		Scanner scan = new Scanner(System.in);
+		// add String first 
+		System.out.println("Enter the String :");
+		String s = scan.next();
+		// add the target
+		System.out.println("Enter the target :");
+		char t = scan.next().charAt(0);
+		// count 
+		int count =0;
+		
+		// now loop through the string 
+		
+		for(int i =0;i<s.length();i++)
+		{
+			// condition to add count 
+			if(s.charAt(i)==t)
+			{
+				// if yes increment the value by 1 
+				count++;
+				
+			}
+		}
+		// display 
+		System.out.println(" The count of target "+t+ " is "+count );
+		
+		
+	}
+
+}
