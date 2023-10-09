@@ -1,0 +1,51 @@
+import java.util.*;
+public class LinkedListBasic {
+	
+	
+	public static void main(String args[])
+	{
+		// we will create linked list object 
+		//here the memory is dynamic 
+		// the memory is allocated at runtime 
+		// insertion and deletion takes place faster then array 
+		// no shifting required 
+		
+        LinkedList<String> ll = new LinkedList<String>();
+        ll.add("Apple");
+        ll.add("Banana");
+        ll.add("Orange");
+        // we have added value with the help of add method 
+        // display the value 
+        System.out.println(" "+ll);
+        
+        // if we want to iterate 
+        // while with hasNext()
+        // to iterate required iterator object 
+        Iterator<String> it = ll.iterator();
+        // look the first iterator is class 
+        // the second one is a method 
+        // while loop
+        while(it.hasNext()) // will be executed till it has an object 
+        {
+        	System.out.println(" "+it.next());
+        	// next is like go to the next value 
+        	
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+	}
+
+}
