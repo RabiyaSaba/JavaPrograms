@@ -1,0 +1,21 @@
+// this program is to define a static variable 
+// suppose there is a College data class 
+
+public class StaticVar {
+	
+	public static void main(String args[])
+	{
+	   // so in a clg database  we have 
+		// name 
+		String name ="Rabiya "; // name can be unique 
+		// roll no 
+		int rollno =123;  // unique 
+		// Clg name 
+		String static Clgname = "Anjuman "; // common 
+		// in order to save memory what we did it 
+		// we have made clgname as static // memory allocation is common for clgname
+		
+		
+	}
+
+}
