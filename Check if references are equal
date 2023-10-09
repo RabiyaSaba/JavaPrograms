@@ -1,0 +1,23 @@
+
+
+// two string which has same reference check if both are equal 
+public class CheckReferences {
+	
+	public static void main(String args[])
+	{
+		// String 1 
+		String s1 = "Welcome";
+		String s2 ="Welcome";
+		// so remember that the equal op will check for references not values 
+		if(s1==s2)
+		{
+			System.out.println("References are equals ");
+			
+		}
+		else
+		{
+			System.out.println("References are not equal");
+		}
+	}
+
+}
