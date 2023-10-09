@@ -1,0 +1,14 @@
+import java.util.*;
+public class PrintUnicode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char ch ='A';
+		int s1 =ch;
+		System.out.println("The unicode of "+ch+" is :"+s1);
+		
+				
+
+	}
+
+}
