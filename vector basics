@@ -1,0 +1,27 @@
+
+
+import java.util.*;
+public class VectorBasic {
+	
+	public static void main(String args[])
+	{
+		// array and then their is dynamic array
+		// the vector is like dynamic array whose size can be increased and decresed 
+		Vector<String> v = new Vector<String>();
+		v.add("Nana");
+		v.add("mama");
+		v.add("nani");
+		v.add("Dadi");
+		// now show 
+		System.out.println(" "+v);
+		//if we want to iterate
+		Iterator it = v.iterator();
+		// while 
+		while(it.hasNext())
+		{
+			System.out.print(""+it.next());
+			System.out.print(" ");
+		}
+	}
+
+}
