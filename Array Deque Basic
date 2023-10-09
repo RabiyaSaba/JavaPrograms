@@ -1,0 +1,32 @@
+
+import java.util.*;
+public class Dequebasic {
+	
+	public static void main(String args[])
+	{
+		// deque is a type of queue 
+		// whereas in deque we can add and remove element from both sides
+		Deque d = new ArrayDeque();
+		// add element 
+		d.add("Banana ");
+		d.add("Apple");
+		d.add("Orange");
+		// display
+		System.out.println( " "+d);
+		// remove
+		// to remove in between elemet just specify the element in boolean 
+		boolean  s = d.remove("Apple");
+		System.out.println(" "+d);
+		// to remove first element 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
