@@ -1,0 +1,25 @@
+
+public class StaticMethod2 extends StaticMethod {
+	
+	// now the class static method 2 has extended the static method 
+	public void met2() {
+		System.out.println(" the non static method");
+
+}
+// main
+public static void main(String args[])
+{
+	// create object of StaticMethod 2
+	StaticMethod2 m = new StaticMethod2();
+	// call the method to be executed 
+	m.met2();
+	// for the static method what we do is 
+	// we call it by directly class name 
+	// no need to create a object 
+    StaticMethod.met();
+    
+    
+	
+	
+}
+}
