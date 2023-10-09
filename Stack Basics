@@ -1,0 +1,24 @@
+import java.util.*;
+public class StackBasic {
+	
+	public static void main(String args[])
+	{
+		// stack is a subset of vector 
+		// push and pops 
+		// push: adding element 
+		// pop : removing element 
+		// with the stack we can also add the element 
+		Stack<String> st = new Stack<String>();
+		st.push("banana");
+		st.push("Apple");
+		st.push("Kiwi");
+		System.out.println(" the stack is "+st);
+		// now pop
+		// the last inserted element will be deleted 
+		st.pop();
+		System.out.println(" the stack is "+st);
+		
+		
+	}
+
+}
