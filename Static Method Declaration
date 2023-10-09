@@ -1,0 +1,17 @@
+
+public class StaticMethod {
+	
+	public static void main(String args[])
+	{
+		// basically the static method do not require 
+		// any object in order to get called 
+			}
+	public static void met()
+			{
+				System.out.println( " A static method :");
+				
+			}
+
+	
+
+}
