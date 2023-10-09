@@ -1,0 +1,26 @@
+// the compareTo method wil check by unicode value 
+// one by one
+public class CompareTo {
+	
+	public static void main(String args[])
+	{
+		// Strings 
+		String s1 ="Java";
+		String s2 ="java";
+		int res =s1.compareTo(s2);
+		// method 
+		if(res >0)
+		{
+			System.out.println("s1 is greater ");
+		}
+		else if(res<0)
+		{
+			System.out.println("S2 is greater ");
+		}
+		else
+		{
+			System.out.println("Both are equal ");
+		}
+	}
+
+}
