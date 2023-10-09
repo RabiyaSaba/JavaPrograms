@@ -1,0 +1,28 @@
+// the program showcase the method usage 
+import java.util.*;
+public class EqualIgnorecaseMethod {
+	
+	public static void main(String args[])
+	{
+		Scanner scan = new Scanner(System.in);
+		// String 1 
+		System.out.println("Enter string 1 :");
+		String s1 = scan.next();
+		// string 2 
+		System.out.println("Enter string 2 :");
+		String s2 = scan.next();
+		
+			
+		// but if ignoring the case the op should be equal 
+		// EqualIgnoreCase() methods 
+		if(s1.equalsIgnoreCase(s2))
+		{
+			System.out.println("The Strings  are equal :");
+		}
+		else
+		{
+			System.out.println("The strings are not equal");
+		}
+	}
+
+}
