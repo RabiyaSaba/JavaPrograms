@@ -1,0 +1,19 @@
+
+public class SubString {
+	
+           public static void main(String args[])
+ {
+      // String  	   
+        	   
+	 String s ="hello";
+	 //original string 
+	 System.out.println(" "+s);
+	 // SubString with the start index
+	 System.out.println(" "+s.substring(3));
+	 // Substring with the start and end index 
+	 System.out.println(""+s.substring(2,4));
+ }
+	
+	
+	
+}
