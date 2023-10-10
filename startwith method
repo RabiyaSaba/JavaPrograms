@@ -1,0 +1,22 @@
+
+public class StartsWithMethod {
+	
+	public static void main(String args[])
+	{
+		
+		String s ="hello";
+		String b ="hell";
+		
+		
+		// check if the given string start with define string or not 
+		if(s.startsWith(b))
+		{
+			System.out.println("Yes ");
+		}
+		else
+		{
+			System.out.println("No");
+		}
+	}
+
+}
