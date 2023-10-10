@@ -1,0 +1,17 @@
+
+public class ReplaceMethid {
+	
+	
+	public static void main(String args[])
+	{
+		// String 
+		String s ="hello";
+		//replacement
+		String b ="Jell";
+		// replace the specified string with the string in b 
+		System.out.println(s.replaceAll("hell", b));
+		// replace only character 
+		System.out.println(s.replace('e','j'));
+		}
+
+}
