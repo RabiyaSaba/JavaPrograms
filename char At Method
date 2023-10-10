@@ -1,0 +1,17 @@
+
+
+
+public class charAtMethod {
+
+	
+	public static void main(String args[])
+	{
+		String a ="hello";
+		// when we want to find character according to the index 
+		// then we use 
+		// charAt()
+		char ch = a.charAt(1);
+		// index start from 0 and at 1 we have e 
+		System.out.println(" "+ch);
+	}
+}
