@@ -1,0 +1,19 @@
+
+public class containsMethod {
+	
+	public static void  main(String args[])
+	{
+		// check if the value is present in the String or nnot 
+		String  a= "hello";
+		String b ="hell";
+		if(a.contains(b))
+		{
+			System.out.println(" Present ");
+		}
+		else
+		{
+			System.out.println("Not Present ");
+		}
+	}
+
+}
