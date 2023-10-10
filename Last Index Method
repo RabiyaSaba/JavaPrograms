@@ -1,7 +1,7 @@
 
 
-// string method which return index value 
-public class IndexOf {
+// string method which return  the last index value 
+public class LastIndexMethod {
 	public static void main(String args[])
 	{
 	
@@ -11,10 +11,10 @@ public class IndexOf {
 	// now loop
 
 	    // it will return index of e 
-		int index = a.indexOf('e');
+		int index = a.lastIndexOf('e');
 		System.out.println(" "+index);
 		// if there is no character then it will return -1
-		index =a.indexOf('c');
+		index =a.lastIndexOf('c');
 		System.out.println(" "+index);
 	
 
