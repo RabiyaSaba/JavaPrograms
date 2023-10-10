@@ -1,0 +1,14 @@
+
+public class IndexOfMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "hello";
+		// when we need to find particular indeex  of character 
+		// we make use of index of 
+		int i =s.indexOf('e');
+		System.out.println(" "+i);
+		
+	}
+
+}
