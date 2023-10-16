@@ -1,0 +1,61 @@
+import java.util.*;
+public class CheckStringPallindrome {
+
+	
+	public static void main(String args[])
+	{
+		Scanner scan = new Scanner (System.in);
+		// now define the string 
+		System.out.println(" Enter a string : ");
+		String a =scan.next();
+		
+		// now we need to reverse the string 
+		// for that we will take string len 
+		int len =a.length();
+		// here we will save reverse 
+		String dummy ="";
+		// for loop
+		for(int i =0;i<len;i++)
+		{
+			// we will store in backward direction
+			dummy = a.charAt(i)+dummy;
+		}
+		// to check pallindrome 
+		if(dummy.equals(a))
+		{
+			System.out.println("Pallindrome");
+		}
+		else
+		{
+			System.out.println(" Not a pallindrome");
+		}
+		// to ignore capital and small
+		if(dummy.equalsIgnoreCase(a))
+		{
+			System.out.println(" ignoring case sensitive : "
+					+ "Pallindrome");
+		}
+		else
+		{
+			System.out.println("Not a pallindrome");
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
