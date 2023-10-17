@@ -1,0 +1,43 @@
+
+import java.io.File; // for file
+import java.io.IOException;
+// when creating file it usually throws io exceptions 
+// so we need to add try catch block
+  
+public class CreateFile {
+	public static void main(String args[])
+	{
+	
+	// in order to create a file
+	// we need to define file object 
+	try
+	{
+	File fe = new File("FileImportant.txt");
+	
+	// now we will check whether the file is created or not
+	if(fe.createNewFile())
+	{
+		System.out.println("File created ");
+	}
+	// if exist
+	else
+	{
+		System.out.println("File already exist ");
+	}
+	
+	
+	}// try 
+	catch (IOException ie)
+	// ie is the object of io 
+	{
+		System.out.println("Error occured ");
+		// this will print the error
+		ie.printStackTrace();
+	}
+	
+  
+	
+	
+
+}
+}
