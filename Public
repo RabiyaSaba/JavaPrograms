@@ -1,0 +1,20 @@
+// access modifier are of 4 types
+
+// type one is public access modifier 
+public class PublicClass {
+	
+	public static void main(String args[])
+	{
+		// all the methods can be access by anyone who extends this class
+		System.out.println("Java is fun");
+		int a =10;
+		System.out.println(" "+a);
+		methodone();
+		
+	}
+	public static void methodone()
+	{
+		System.out.println("This method can be access by anyone ");
+	}
+
+}
