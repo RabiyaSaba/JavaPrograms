@@ -1,0 +1,10 @@
+
+public class Protectede2  extends ProtectedE{
+	
+	public static void main(String args[])
+	{
+		Protectede2 e2 = new Protectede2();
+		e2.methodone();
+	}
+
+}
