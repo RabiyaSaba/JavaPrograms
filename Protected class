@@ -1,0 +1,13 @@
+// when methods and data member are declared protected we can access them through 
+// subclass and class of same package
+public class ProtectedE {
+	
+	// mehod as protected 
+	public void methodone()
+	{
+		System.out.println(" A protected method ");
+	}
+	
+	
+
+}
