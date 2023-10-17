@@ -1,0 +1,6 @@
+
+public interface Interfaceone {
+	
+	// we will define a method here
+	public void methodone();
+}
