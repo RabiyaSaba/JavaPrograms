@@ -1,0 +1,7 @@
+
+public interface Interfacetwo {
+	
+	// we wil define method of interface two 
+	public void methodtwo();
+
+}
