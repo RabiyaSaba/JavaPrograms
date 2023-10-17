@@ -1,0 +1,21 @@
+
+public class Private {
+	
+	// this is private object 
+	static int   a =10;
+	
+	
+	public  void methodone(int a )
+	{
+		System.out.println(" "+a);
+	}
+
+
+public static void main(String args[])
+{
+	// only object of Private can access methodone 
+	Private  p = new Private();
+	p.methodone(a);
+}
+}
+
