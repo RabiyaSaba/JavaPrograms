@@ -1,0 +1,34 @@
+
+public class Reversewithoutspace {
+	
+	public static void main(String args[])
+	{
+		String a ="I am learning Java";
+		// len 
+		int len =a.length();
+		// create a char Array 
+		char [] ar1=a.toCharArray();
+		// convert the other charArray
+		char[] ar2=new char[len];
+		// now 2 for loop
+		for(int i =0;i<=ar1.length-1;i++)
+		{
+			for(int j =0;j<=ar2.length-1;j++)
+			{
+				// checking whitspace and adding it 
+				if(ar1[i]==' ')
+				{
+					ar2[i]=ar1[i];
+				}
+				if(ar1[i]!=' ')
+				{
+					ar2[i]=ar1[len-1];
+					len--;
+				}
+				System.out.print(" "+ar2[i]);
+				
+			}
+		}
+	}
+
+}
