@@ -1,0 +1,34 @@
+
+public class ReverseWord {
+	
+	public static void main(String args[])
+	{
+		String a =" I am learning java";
+		// split the string 
+		String words[] =a.split(" ");
+	     // other loop to store
+		String arr[] = new String[words.length];
+		// loop to see
+	    int start =0;
+	    int end =words.length;
+	    
+	    System.out.println("Before converting :");
+	      for(int i =0;i<end;i++)
+	      {
+	    	  System.out.print(" "+words[i]);
+	      }
+	      System.out.println(" ");
+	      System.out.println("After converting :");
+	     while(start-1 <=end)
+	    {
+	    	
+	    	arr[start]=words[end-1];
+	    	System.out.print("  "+arr[start]);
+	    	end--;
+	    	start++;
+	    	
+	    	
+	    }
+	}
+}
+	    
