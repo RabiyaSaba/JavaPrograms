@@ -1,0 +1,30 @@
+ class MultipleInterface implements Interfaceone,Interfacetwo {
+	
+	// now we need to extends both the interface for that 
+	// with the help of comma we can 
+	
+	public void Methodone()
+	{
+		System.out.println(" Method of interface one");
+	}
+	// for sec interface 
+	public void Methodtwo()
+	{
+		System.out.println("Method of interface two ");
+	}
+ 
+   
+	public static void main(String args[])
+	
+	{
+		MultipleInterface ml = new MultipleInterface();
+		ml.Methodone();
+		ml.Methodtwo();
+	}
+ 
+ }
+	
+	
+
+
+
