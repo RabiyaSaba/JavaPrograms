@@ -3,7 +3,7 @@
 public class ProtectedE {
 	
 	// mehod as protected 
-	public void methodone()
+	protected  void methodone()
 	{
 		System.out.println(" A protected method ");
 	}
