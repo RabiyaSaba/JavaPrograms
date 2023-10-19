@@ -1,0 +1,40 @@
+import java.util.*;
+public class StringAnangrams {
+	public static void main(String args[])
+	{
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the two string : ");
+		String a =scan.next();
+		String b=scan.next();
+		// we will take the first string 
+		char dummy =a.charAt(0);
+		// loop
+		// to store count 
+	int count=0;
+	int length=a.length();
+
+		for(int i =0;i<a.length();i++)
+		{
+			for(int j =0;j<b.length();j++)
+			{
+				if(dummy ==a.charAt(i) && dummy==b.charAt(j))
+				{
+					count++;
+					
+				}
+				dummy = a.charAt(i);
+			}
+		}
+		// check analgram 
+		if(count==length-1)
+		{
+			System.out.println("Anagram");
+		}
+		else
+		{
+			System.out.println("Not ");
+		}
+	}
+
+}
