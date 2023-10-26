@@ -5,4 +5,5 @@
 abstract  class AbstractionExample {
 
      abstract void  run();
+     // here the body is not visible 
 }
