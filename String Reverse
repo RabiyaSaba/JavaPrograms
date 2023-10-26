@@ -22,7 +22,9 @@ public class Reversewithoutspace {
 				}
 				if(ar1[i]!=' ')
 				{
-					ar2[i]=ar1[len-1];
+					ar2[i]=ar1[len-1];                                 // more easier 
+                                                                                              // for
+
 					len--;
 				}
 				System.out.print(" "+ar2[i]);
@@ -32,3 +34,31 @@ public class Reversewithoutspace {
 	}
 
 }
+
+
+
+
+
+// more easier way 
+String sum ="" 
+for(till 10)
+{                              // hello
+   sum = a[len -1 ]+sum           // " " + o
+                              //"" +o+l
+                            // olleh
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
