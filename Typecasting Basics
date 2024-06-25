@@ -1,0 +1,18 @@
+public class Typecastng {
+	public static void main(String[] args)
+	{
+
+//so basically in this program the approch is to showcase how typecasting will work 
+// therefore we have taken a value as int and converted the value in double 
+
+
+		int myInt=9;
+		double myDouble=myInt;
+// by changing the datatype we converted the integer value to double value
+		System.out.println(myInt);
+// because of which when we print the doule this will showcase 9.0
+
+		System.out.println(myDouble);
+	}
+
+}
