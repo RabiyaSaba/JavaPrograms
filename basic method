@@ -1,0 +1,17 @@
+public class Main {
+
+// so first we have defined the class 
+// and the method the method have a body 
+// whicb execute the SOP to print the statement 
+  static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+
+  // here we are calling the method by its name 
+  // therefore the method will get executed and print what inside its body 
+
+    myMethod();
+  }
+}
