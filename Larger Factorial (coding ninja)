@@ -1,0 +1,39 @@
+// THIS IS THE PROBLEM STATEMENT OF coding ninja code 360
+// here in this the problem statement stated that the first find the factorial of 2 number 
+// then try to find  which factorial is larger in size 
+public class LargerFact {
+    public static void main(String args[]) {
+        // First declare the numbers for which we want to compute factorials
+        int n = 3;
+        int n1 = 4;
+
+        // Variables to store factorial values
+        int sum = 1;
+        int sum1 = 1;
+
+        // Compute factorial for n
+        for (int i = 1; i <= n; i++) {
+            sum *= i;
+        }
+
+        // Compute factorial for n1
+        for (int i = 1; i <= n1; i++) {
+            sum1 *= i;
+        }
+
+        // Print factorial results
+        System.out.println("Factorial 1: " + sum);
+        System.out.println("Factorial 2: " + sum1);
+        
+        // now to calculate which one is greater 
+        if(n > n1)
+        {
+        System.out.println("n1 is greater ");
+        
+        }
+        else
+        {
+        System.out.println("n2 is greater ");
+        }
+    }
+}
