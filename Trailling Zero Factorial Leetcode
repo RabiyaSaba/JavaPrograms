@@ -1,0 +1,29 @@
+// program to print hello world 
+public class HelloWorld {
+ 
+    public static void main(String[] args) {
+        // int value to calculate factorial
+        int n = 5;
+        int factorial = 1;
+
+        // calculate factorial of n
+        for (int i = 1; i <= n; i++) {
+            factorial = factorial * i;
+        }
+
+        System.out.println("Factorial of 5 is: " + factorial);
+
+        // convert factorial to string
+        String factorialStr = String.valueOf(factorial);
+        int count = 0;
+
+        // count the number of zeros in the factorial
+        for (int i = 0; i < factorialStr.length(); i++) {
+            if (factorialStr.charAt(i) == '0') {
+                count++;
+            }
+        }
+
+        System.out.println("The number of zeros in the factorial is: " + count);
+    }
+    }
