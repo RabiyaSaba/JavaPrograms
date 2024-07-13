@@ -1,0 +1,80 @@
+INTRODUCTION 
+We all are aware of the need to create a dynamic web page 
+Basically a web pages that can change the site content according to the time or that can generate the content according to the request 
+In order to generate dynamic web pages in java we can make use of JAVA SERVLET 
+
+JAVA SERVLET OF JAVA PROGRAMS THAT run on java enabled web server or application server 
+Used to handle request obtained from the web servlet ,
+
+process the request , produce the response and then send a reponse back to the web server 
+
+ 
+
+PROPERTIES OF SERVLET ARE AS FOLLOWS 
+Servlet works on server side 
+Severs are capable of  handling complex request obtained from the web servers 
+
+JAVA SERVLET ARCHITECTIRE 
+ 
+EXECUTION OF JAVA SERVLETS
+
+Clients sends a request to the web servers 
+
+
+Web servers receives the request 
+
+
+
+Web servers passes the request to corresponding servlets 
+The servlets processes the request and generate a response the response is the output 
+
+
+The servlets sends the request back to the web servers 
+And webservers sends the request back to the clients and clients browser display it to the screen \
+
+SERVER SIDE EXTENSION 
+
+Server side are nothing but the technologies that are used to create dynamic web pages 
+In order to create dynamic web pages web pages require container 
+Now in order to meet this requirement we make use of APIS 
+APIS are basically APPLICATION PROGRAM INTERFACE 
+
+APIs allows us to build somethings that can run the web servers 
+Only APIS is not a technology that we can make use of servlets technology are also available which we can make use of common gateway interface 
+BASICALLY CGI is an external application that is written by  using any of the programming language like c or c++
+EXECUTION OF CGI 
+
+
+Cgi is good to  have when handling and processing lesser request , whereas when we have more processes  we need to switch to better technology 
+
+
+Servlets are build from two packages 
+javax.servlets( basics) 
+javax.servlets.http(advance) 
+
+
+
+LIFECYCLE OF SERVLETS 
+1.init():  it is called as soon as the request is received 
+Service() :  to handle client request and redirects the request to doGet() and doPost()
+Destroy() : called the request is handled , response sent back to client and finally the memory is allocated to the servlets is deallocated 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
