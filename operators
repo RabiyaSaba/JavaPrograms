@@ -1,0 +1,64 @@
+
+THERE ARE DIFFERENT TYPES OF OPERATORS IN JAVA 
+1.ARITHEMATIC 
+2.UNARY 
+3.ASSIGMENT 
+4.RELATIONAL 
+5.LOGICAL 
+6.TERNARY 
+7.BITWISE 
+8.SHIFT 
+9.INSTANCE OF OPERATOR 
+
+ARITHEMATIC OPERATOR 
+USED TO PERFORM SIMPLE ARITHEMATIC OPERATIONS : 
+
+1.	Multiplication - *
+2.	Division -/
+3.	Modulo -%
+4.	Addition - +
+5.	Subtraction –
+
+UNARY  OPERATOR 
+1.unary minus : used for negating the value 
+2. Unary plus : showcase that the values are positive 
+3.  Increment operator : increment the value by 1 (++)
+There are two types of increment 
+1.post increment : value is used first then increment 1++
+2.pre increment : value is first incremented then used : ++1
+
+4.Decrement Operator (--): decrement the value by 1 
+Same for decrement we have post decrement and pre decrements 
+
+
+ASSIGMENT OPERTOR : 
+
+Variable = value this is known as assigmenet operator 
+
+RELATIONAL OPERATOR : 
+
+== : EQUAL TO 
+!= : not equal to 
+< : less then 
+>: greater then 
+<=: less then equal to 
+>=: greater then equal to 
+
+LOGICAL  OPERATOR : 
+
+Logical and (&&) : both the condition should be true or else condition will be false if one condition is false 
+LOGICAL OR  (||)  : if one condition is true then the condition is true 
+LOGICAL NOT (!) :  returns true the reverse if condition is false or vice versa 
+
+BITWISE 
+ Used to perform manipulation of individual bits 
+& BITWISE AND OPERATOR 
+| BITWISE OR OPERATOR 
+
+
+
+
+
+
+
+ 
