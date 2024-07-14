@@ -1,0 +1,25 @@
+DEPENDENCY INJECTION ( DI ) DESIGN PATTERN 
+
+Dependency injection is one of the most widely used design pattern , its comes under software design 
+One of the most important related topic to dependency injection  is Inversion of Control ( IOC) 
+IOC is a principle where basically we shift the responsibility from the application to an external framework or container 
+Dependency injection is a way to achive the IOC 
+
+TYPES OF DEPENDENCY INJECTION 
+1.constructor injection : dependency is provided through class constructor 
+2.setter injection  : dependencies are set through public setter or properties 
+3.interface injection  : dependencies are injected through interface methods 
+
+BENEFITS 
+Modularity and maintainability : dependencies are clearly defined and can be easily replaced or modified without altering client code 
+Testing : we can achive unit testing on it 
+Loose Coupling : reduces the coupling hence making the system more easier and more flexible 
+
+	
+
+
+
+
+
+
+
