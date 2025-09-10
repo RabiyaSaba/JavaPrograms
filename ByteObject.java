@@ -1,6 +1,9 @@
 
 // wap to create int object 
 
+// What is byte object in Java 
+//Byte stores value between -127 to 128 (primitive data type in java that stores 8 bit signed intergers)
+
 import java.util.Scanner;
 public class ByteObject {
 	
@@ -15,3 +18,4 @@ public class ByteObject {
 	
 
 }
+
