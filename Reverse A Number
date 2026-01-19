@@ -9,9 +9,14 @@ public class ReverseANumber {
 		// logic to reverse a number 
 		while(n>0)
 		{
+// rem =123%10 = 3 (everytime we divide by 10 it will leave last number)
 			int rem = n%10;
 			// everytime we are reverse an storing it in ans 
+
+// storing answer 
 			 ans=ans*10+rem;
+
+// checking remaings 
 			n=n/10;
 			
 		}
